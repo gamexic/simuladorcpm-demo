@@ -1,0 +1,12 @@
+{
+  "name": "simulador-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Demo educativa de asignación de equipos y comparación de escenarios con datos sintéticos.",
+  "scripts": {
+    "start": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check app.js && node --check engine.js && node --check worker.js && node --check data.js"
+  }
+}
