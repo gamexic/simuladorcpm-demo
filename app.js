@@ -207,7 +207,7 @@ $('#reset-button').addEventListener('click', () => {
 $('#export-button').addEventListener('click', () => {
   if (!state.valid || state.busy) return;
   const report = {
-    title: 'CPM demo — escenario sintético', version: '1.0.0', generatedAt: new Date().toISOString(),
+    title: 'Simulador de escenarios — datos sintéticos', version: '1.0.0', generatedAt: new Date().toISOString(),
     notice: 'Datos 100% ficticios. Modelo educativo simplificado, sin validez oficial ni probabilidad de ganar.',
     formula: 'PPP = suma(puntaje × horas) / suma(horas); expertos excluidos de ambas sumas.',
     mode: getMode(), entity: getEntity(), reservations: state.reservations,
@@ -215,7 +215,7 @@ $('#export-button').addEventListener('click', () => {
   };
   const url = URL.createObjectURL(new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' }));
   const anchor = document.createElement('a');
-  anchor.href = url; anchor.download = 'cpm-demo-escenario.json'; anchor.click();
+  anchor.href = url; anchor.download = 'simulador-escenario.json'; anchor.click();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
   setStatus('Escenario sintético descargado como JSON.');
 });

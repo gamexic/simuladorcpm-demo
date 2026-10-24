@@ -1,4 +1,4 @@
-# CPM demo pública
+# Demo pública de escenarios
 
 - Esta carpeta es un repositorio independiente del simulador privado.
 - Mantener todos los datos sintéticos y originales. Nunca copiar bases, nombres,

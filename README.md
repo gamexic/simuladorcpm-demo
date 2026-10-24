@@ -1,4 +1,4 @@
-# Simulador CPM demo
+# Simulador de escenarios
 
 Demo pública, independiente y educativa para explorar asignación de equipos,
 puntajes ponderados y reservas de recursos. Todos los datos se escribieron desde
@@ -96,8 +96,8 @@ favicon.svg
 ```
 
 Puede servirse desde la raíz o una subcarpeta: todas sus importaciones son relativas.
-La web personal lo integra en `/demos/cpm/` copiando esa lista exacta dentro de
-`public/demos/cpm/`, sin marcos de terceros ni iframes. No se publican dependencias,
+La web personal lo integra en `/demos/escenarios/` copiando esa lista exacta dentro de
+`public/demos/escenarios/`, sin marcos de terceros ni iframes. No se publican dependencias,
 resultados de pruebas o archivos del proyecto privado. Al modificar la demo,
 repetir las pruebas y sincronizar esos siete archivos con el portfolio.
 

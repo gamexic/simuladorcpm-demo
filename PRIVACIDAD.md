@@ -1,4 +1,4 @@
-# Privacidad de CPM demo
+# Privacidad del simulador de escenarios
 
 Esta aplicación utiliza exclusivamente información sintética original. No contiene
 nombres reales de personas, sociedades o entidades del proyecto privado, ni
